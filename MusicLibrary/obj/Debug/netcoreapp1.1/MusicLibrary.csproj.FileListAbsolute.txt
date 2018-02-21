@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/bin/Debug/netcoreapp1.1/MusicLibrary.deps.json
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/bin/Debug/netcoreapp1.1/MusicLibrary.runtimeconfig.json
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/bin/Debug/netcoreapp1.1/MusicLibrary.runtimeconfig.dev.json
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/obj/Debug/netcoreapp1.1/MusicLibrary.AssemblyInfo.cs
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/bin/Debug/netcoreapp1.1/MusicLibrary.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/bin/Debug/netcoreapp1.1/MusicLibrary.pdb
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/obj/Debug/netcoreapp1.1/MusicLibrary.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary/obj/Debug/netcoreapp1.1/MusicLibrary.pdb

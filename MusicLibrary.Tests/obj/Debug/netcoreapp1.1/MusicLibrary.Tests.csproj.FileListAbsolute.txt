@@ -1,0 +1,13 @@
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/MusicLibrary.Tests.deps.json
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/MusicLibrary.Tests.runtimeconfig.json
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/MusicLibrary.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/obj/Debug/netcoreapp1.1/MusicLibrary.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/MusicLibrary.Tests.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/MusicLibrary.Tests.pdb
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/MusicLibrary.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/bin/Debug/netcoreapp1.1/MusicLibrary.pdb
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/obj/Debug/netcoreapp1.1/MusicLibrary.Tests.dll
+/Users/Guest/Desktop/MusicLibrary.Solution/MusicLibrary.Tests/obj/Debug/netcoreapp1.1/MusicLibrary.Tests.pdb

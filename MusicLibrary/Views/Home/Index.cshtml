@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Music Library</h1>
+      </div>
+      <h4>Add a new track to the database!</h4>
+      <form action="/tracks" method="post">
+        <label for="track">Track:</label>
+        <input type="text" name="track">
+        <label for="artist">Artist:</label>
+        <input type="text" name="artist">
+        <label for="album">Album:</label>
+        <input type="text" name="album">
+        <label for="genre">Genre:</label>
+        <input type="text" name="genre">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
