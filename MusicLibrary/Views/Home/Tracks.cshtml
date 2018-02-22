@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+    <title>track-display</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Here are the trax you requested!</h1>
+      </div>
+        @if(Model!=null)
+        {
+          foreach (var track in Model)
+          {
+            <h3><a href="/tracks/{id}">@track.GetTrack()</a></h3>
+            <h5>@track.GetArtist()</h5>
+            <h5>@track.GetAlbum()</h5>
+            <h5>@track.GetGenre()</h5>
+          }
+        }
+        <a href="/">Add more trax to the database!</a>
+      </div>
+    </body>
+</html>

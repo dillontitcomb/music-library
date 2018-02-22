@@ -11,16 +11,37 @@ namespace MusicLibrary.Controllers
         {
           return View();
         }
-        [HttpPost("/tracks")]
+        [HttpGet("/tracks")]
         public ActionResult Tracks()
+        {
+          List<Track> trackList = Track.GetAll();
+          return View(trackList);
+        }
+
+        [HttpPost("/tracks")]
+        public ActionResult AddTracks()
         {
           string track = Request.Form["track"];
           string artist = Request.Form["artist"];
           string album = Request.Form["album"];
           string genre = Request.Form["genre"];
-          Track newTrack = new Track(track, album, artist, genre);
+          Track newTrack = new Track(track, artist, album, genre);
+          newTrack.Save();
+          List<Track> trackList = Track.GetAll();
 
-          return View();
+          return View("Tracks", trackList);
+        }
+        [HttpGet("/tracks/{id}")]
+        public ActionResult FindTracks(int id)
+        
+
+
+
+        [HttpPost("/tracks/delete")]
+        public ActionResult DeleteAllTracks()
+        {
+          Track.DeleteAll();
+          return View("Index");
         }
 
     }
