@@ -8,8 +8,15 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1></h1>
+        @if(Model!=null)
+        {
+        <h1>@Model.GetTrack()</h1>
+        <h3>@Model.GetArtist()</h3>
+        <h3>@Model.GetAlbum()</h3>
+        <h3>@Model.GetGenre()</h3>
+        }
       </div>
+    <a href="/tracks">Check out the trax!</a>
     </div>
   </body>
 </html>

@@ -44,8 +44,21 @@ namespace MusicLibrary.Tests
       //Assert
       Assert.AreEqual(testId, result);
     }
+    [TestMethod]
+    public void Edit_UpdatesTracksinDatabase_String()
+    {
+      //Arrange
+      string firstTrackName = "Hello";
+      Track testTrack = new Track(firstTrackName, "Adele", "25", "Pop");
+      testTrack.Save();
+      string secondTrackName = "Goodbye";
 
+      //Act
+      testTrack.Edit(secondTrackName, "Adele", "25", "Pop");
+      string result = Track.Find(testTrack.GetId()).GetTrack();
 
-
+      //Assert
+      Assert.AreEqual(secondTrackName, result);
+    }
   }
 }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
+    <title>Update Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Trax Editor!</h1>
+      </div>
+      <h4>Edit trax below!</h4>
+      <form action="/tracks/@Model.GetId()/update" method="post">
+        <label for="updateTrack">Track:</label>
+        <input type="text" name="updateTrack" value="@Model.GetTrack()">
+        <hr>
+        <label for="updateArtist">Artist:</label>
+        <input type="text" name="updateArtist" value="@Model.GetArtist()">
+        <hr>
+        <label for="updateAlbum">Album:</label>
+        <input type="text" name="updateAlbum" value="@Model.GetAlbum()">
+        <hr>
+        <select class="form-control form-control-sm" name="updateGenre">
+        <option value="" disabled selected>Genre</option>
+        <option value="Pop">Pop</option>
+        <option value="Hip-Hop">Hip-Hop</option>
+        <option value="Electronic">Electronic</option>
+        <option value="Latin">Latin</option>
+        <option value="World">World</option>
+        <option value="Folk">Folk</option>
+        <option value="Blues">Blues</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Soul/R&B">Soul/R&B</option>
+        <option value="Alternative">Alternative</option>
+        <option value="Punk">Punk</option>
+        <option value="Ska">Ska</option>
+        <option value="Classical">Classical</option>
+        <option value="Rock">Rock</option>
+        <option value="Classic-Rock">Classic-Rock</option>
+        </select>
+        <hr>
+      <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br>
+      <a href="/tracks">Return to Trax!</a>
+    </div>
+  </body>
+</html>

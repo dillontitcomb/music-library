@@ -8,19 +8,34 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Here are the trax you requested!</h1>
+        <h1>Trax View</h1>
       </div>
+      <form action="/tracks/sort" method="post">
+        <div class="form-row">
+          <div class="col">
+            <select class="form-control form-control" name="sort">
+              <option value="track">Sort by track</option>
+              <option value="artist">Sort by artist</option>
+              <option value="album">Sort by album</option>
+              <option value="genre">Sort by genre</option>
+            </select>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn btn-info">Sort!</button>
+          </div>
+        </div>
+        <br>
+      </form>
         @if(Model!=null)
         {
           foreach (var track in Model)
           {
-            <h3><a href="/tracks/{id}">@track.GetTrack()</a></h3>
-            <h5>@track.GetArtist()</h5>
-            <h5>@track.GetAlbum()</h5>
-            <h5>@track.GetGenre()</h5>
+            <h3><a href="/tracks/@track.GetId()">@track.GetTrack()</a></h3><a href="/tracks/@track.GetId()/update">Edit</a>
+            <hr>
           }
         }
-        <a href="/">Add more trax to the database!</a>
+        <hr>
+        <h4><a href="/">Add more Trax to the database!</a></h4>
       </div>
     </body>
 </html>
